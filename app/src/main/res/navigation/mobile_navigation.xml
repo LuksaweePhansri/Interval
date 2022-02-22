@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_calendar">
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="net.tbp.interval.ui.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_reminder"
+        android:name="net.tbp.interval.ui.reminder.ReminderFragment"
+        android:label="@string/title_reminder"
+        tools:layout="@layout/fragment_reminder" />
+
+    <fragment
+        android:id="@+id/navigation_tracker"
+        android:name="net.tbp.interval.ui.tracker.TrackerFragment"
+        android:label="@string/title_tracker"
+        tools:layout="@layout/fragment_tracker" />
+
+    <fragment
+        android:id="@+id/nav_backup"
+        android:name="net.tbp.interval.ui.backup.BackupFragment"
+        android:label="Backup"
+        tools:layout="@layout/fragment_backup" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="net.tbp.interval.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="net.tbp.interval.ui.account.NewaccountFragment"
+        android:label="SlideshowFragment"
+        tools:layout="@layout/fragment_newaccount" />
+
+    <fragment
+        android:id="@+id/addReminderBtn"
+        android:name="net.tbp.interval.ui.account.NewaccountFragment"
+        android:label="SlideshowFragment"
+        tools:layout="@layout/fragment_newaccount" />
+
+
+
+
+
+</navigation>
